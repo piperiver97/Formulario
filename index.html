@@ -4,61 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>FORMULARIO</h1>
-    <form action="#" method="post"></form>
-   
+    <form>
+    <h2>FORMULARIO</h2>
+    <div class="input-group">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="user_name" placeholder="Nombre"/>
+        <label for="mail">Correo Electronico</label>
+        <input type="email" id="mail" name="user_email" placeholder="Correo"/>
+             <label for="age">Edad</label>
+            <input type="text" id="age" name="user_number" placeholder="Edad"/>
+        <label dor="description">Selecciona: ¿Qué opción te describe mejor?</label>
+
+        <select id="description" name="description">
+            <option value="opcion 1">Estudiante</option>
+            <option value="opcion 1">Empleado</option>
+            <option value="opcion 1">Desempleado</option>
+        </select>
         <div>
-            <label for="name">nombre</label>
-            <input type="text" id="name" name="user_name"/>
+            <label>Recomendarias este sitio?</label>
         </div>
-        <div>
-            <label for="mail">Correo Electronico</label>
-            <input type="email" id="mail" name="user_email"/>
-        </div>
-        <div>
-<label for="age">Edad</label>
-<input type="text" id="age" name="user_number"/>
-        </div>
-        <div>
-            <label dor="description">Selecciona: ¿Qué opción te describe mejor?</label>
-            <select id="description" name="description">
-                <option value="opcion 1">Estudiante</option>
-                <option value="opcion 1">Empleado</option>
-                <option value="opcion 1">Desempleado</option>
-            </select>
-        </div>
-        <div> 
             <div>
-            <label>Recomendarias este sitio?</label></div>
-            <input type="radio" id="yes" name="recomend" value="yes">
-            <label for="yes">Si</label></div>
-            <div>
-            <input type="radio" id="yes" name="recomend" value="yes">
-            <label for="yes">No</label></div>
-            <div>
-            <input type="radio" id="yes" name="recomend" value="yes">
+                <input type="radio" id="yes" name="recomend" value="yes" class="option" >
+            <label for="yes">Si</label>
+        </div>
+            <div><input type="radio" id="no" name="recomend" value="no" class="option">
+            <label for="no">No</label></div>
+<div>
+            <input type="radio" id="yes" name="recomend" value="yes" class="option">
             <label for="yes">Quizas</label></div>
-            </label>
-        </div>
-        <div> 
-            <div>
-                <label>Idiomas y frameworks conocidos:</label></div>
-            <div>
-            <input type="checkbox" id="html" name="languages" value="HTML">
+            
+<div>
+            <label>Idiomas y frameworks conocidos:</label></div>
+            <div><input type="checkbox" id="html" name="languages" value="HTML" class="option">
             <label for="html">HTML</label></div>
             <div>
-            <input type="checkbox" id="css" name="languages" value="CSS">
+            <input type="checkbox" id="css" name="languages" value="CSS" class="option">
             <label for="css">CSS</label></div>
             <div>
-            <input type="checkbox" id="javascript" name="languages" value="JavaScript">
+            <input type="checkbox" id="javascript" name="languages" value="JavaScript" class="option">
             <label for="javascript">JavaScript</label></div>
-        </div>
-    </ul>
-    <label for="msg">Mensaje:</label>
-    <br> <textarea id="msg" name="user_message"></textarea></br>
-   <br> <button type="submit">Enviar</button></br>
-    
+            <div>  <input type="checkbox" id="java" name="languages" value="java" class="option">
+               <label for="java">Java</label></div>
+            <div>
+                <input type="checkbox" id="C#" name="languages" value="C#" class="option">
+                <label for="C#">C#</label></div>
+                <div>
+                    <input type="checkbox" id="C++" name="languages" value="C++" class="option">
+                    <label for="C++">C++</label></div>
+            <div>
+                <input type="checkbox" id="C" name="languages" value="C" class="option">
+                <label for="C">C</label></div>
+            <div>
+            <input type="checkbox" id="React" name="languages" value="react" class="option">
+            <label for="react">React</label></div>
+<div> 
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" cols="50" rows="5" placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button></div>   
+</div>
+</form>
 </body>
 </html>
