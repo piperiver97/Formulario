@@ -10,60 +10,76 @@
     <form>
     <h2>FORMULARIO</h2>
     <div class="input-group">
-        <label for="name">Nombre</label>
-        <input type="text" id="name" name="user_name" placeholder="Nombre"/>
-        <label for="mail">Correo Electronico</label>
-        <input type="email" id="mail" name="user_email" placeholder="Correo"/>
+         <label for="name">Nombre</label>
+         <input type="text" id="name" name="user_name" placeholder="Nombre" class="tecleo"/>
+         <label for="mail">Correo Electronico</label>
+         <input type="text" id="mail" name="user_email" placeholder="Correo" class="tecleo"/>
              <label for="age">Edad</label>
-            <input type="text" id="age" name="user_number" placeholder="Edad"/>
-        <label dor="description">Selecciona: ¿Qué opción te describe mejor?</label>
-
-        <select id="description" name="description">
-            <option value="opcion 1">Estudiante</option>
-            <option value="opcion 1">Empleado</option>
-            <option value="opcion 1">Desempleado</option>
-        </select>
+             <input type="text" id="age" name="user_number" placeholder="Edad" class="tecleo"/>
+      
+          <div>
+          <label dor="description">Selecciona: ¿Qué opción te describe mejor?</label>
+          </div>
+          <div>
+           <select id="description" name="description">
+           <option value="opcion 1">Estudiante</option>
+           <option value="opcion 1">Empleado</option>
+           <option value="opcion 1">Desempleado</option>
+           </div>
+         </select>
+      </div>
         <div>
             <label>Recomendarias este sitio?</label>
-        </div>
-            <div>
+      </div>
+        <div>
                 <input type="radio" id="yes" name="recomend" value="yes" class="option" >
             <label for="yes">Si</label>
-        </div>
+       </div>
             <div><input type="radio" id="no" name="recomend" value="no" class="option">
-            <label for="no">No</label></div>
-<div>
+            <label for="no">No</label>
+        </div>
+        <div>
             <input type="radio" id="yes" name="recomend" value="yes" class="option">
-            <label for="yes">Quizas</label></div>
+            <label for="yes">Quizas</label>
+        </div>
             
-<div>
+        <div>
             <label>Idiomas y frameworks conocidos:</label></div>
             <div><input type="checkbox" id="html" name="languages" value="HTML" class="option">
-            <label for="html">HTML</label></div>
+            <label for="html">HTML</label>
+        </div>
             <div>
             <input type="checkbox" id="css" name="languages" value="CSS" class="option">
-            <label for="css">CSS</label></div>
+            <label for="css">CSS</label>
+        </div>
             <div>
             <input type="checkbox" id="javascript" name="languages" value="JavaScript" class="option">
-            <label for="javascript">JavaScript</label></div>
+            <label for="javascript">JavaScript</label>
+        </div>
             <div>  <input type="checkbox" id="java" name="languages" value="java" class="option">
-               <label for="java">Java</label></div>
+               <label for="java">Java</label>
+            </div>
             <div>
                 <input type="checkbox" id="C#" name="languages" value="C#" class="option">
-                <label for="C#">C#</label></div>
+                <label for="C#">C#</label>
+            </div>
                 <div>
                     <input type="checkbox" id="C++" name="languages" value="C++" class="option">
-                    <label for="C++">C++</label></div>
+                    <label for="C++">C++</label>
+                </div>
             <div>
                 <input type="checkbox" id="C" name="languages" value="C" class="option">
-                <label for="C">C</label></div>
+                <label for="C">C</label>
+            </div>
             <div>
             <input type="checkbox" id="React" name="languages" value="react" class="option">
-            <label for="react">React</label></div>
+            <label for="react">React</label>
+        </div>
 <div> 
-            <label for="message">Mensaje</label>
+            <label for="message">Mensaje</label><BR>
             <textarea name="message" id="message" cols="50" rows="5" placeholder="Mensaje"></textarea>
-            <button type="submit">Enviar</button></div>   
+            <button type="submit">Enviar</button>
+        </div>   
 </div>
 </form>
 </body>
